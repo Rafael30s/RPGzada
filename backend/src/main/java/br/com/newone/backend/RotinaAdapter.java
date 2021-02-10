@@ -1,6 +1,11 @@
 package br.com.newone.backend;
 
+import java.util.List;
+import java.util.Map;
+
 public class RotinaAdapter implements Rotina {
+
+
     @Override
     public void cadastrar() {
         //Verificar se já tem no banco
@@ -18,4 +23,6 @@ public class RotinaAdapter implements Rotina {
     public void consultarUsuarios() {
         // aqui vai um select na tabela usuarios
     }
+
+
 }
