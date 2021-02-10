@@ -8,6 +8,7 @@ body {
 
 /* Style the top navigation bar */
 section header nav {
+    height: 8vh;
     overflow: hidden;
     background-color: #290000;
     display: flex;
@@ -23,6 +24,7 @@ section header nav a {
     padding: 14px 16px;
     text-decoration: none;
     margin: 0 10px;
+    font-size: 1.3em;
 }
 
 /* Change color on hover */
