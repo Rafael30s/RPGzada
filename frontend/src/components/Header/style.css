@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the top navigation bar */
+section header nav {
+    overflow: hidden;
+    background-color: #290000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Style the topnav links */
+section header nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Change color on hover */
+section header nav a:hover {
+    background-color: #ddd;
+    color: black;
+    display: flex;
+
+}
