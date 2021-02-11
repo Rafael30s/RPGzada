@@ -10,7 +10,8 @@ body {
 section header nav {
     height: 8vh;
     overflow: hidden;
-    background-color: #290000;
+    background-color: #0e0e10;
+    /* #290000 */
     display: flex;
     justify-content: flex-end;
 }

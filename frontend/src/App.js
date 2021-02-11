@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import Header from "./components/Header";
+import FormLogin from "./components/FormLogin"
 import './assets/App.css';
 import "./assets/index.css";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <header className="App-header">
-        
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -22,6 +23,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <div>
+          teste
+        </div>
+        <div>
+          <FormLogin/>
+        </div>
+      </main>
+
     </div>
   );
 }

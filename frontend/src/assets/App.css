@@ -1,7 +1,79 @@
 .App {
   text-align: center;
 }
+::selection {
+  background: #dddddd;
+  text-shadow: none;
+}
+section header nav a:hover {
+    background-color: #ddd;
+    color: black;
+    display: flex;
+}
+a:active, a:hover {
+    outline: 0;
+}
+section header nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.3em;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.App {
+    text-align: center;
+}
+body {
+    line-height: 1;
+}
+html, button, input, select, textarea {
+    color: #222;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 
+
+.App main{
+  min-height: 92vh;
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+}
+
+.App main div:first{
+  display: inline-block;
+  background-color: blanchedalmond;
+  width: 60vw;
+}
+
+.App main div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +86,7 @@
 }
 
 .App-header {
-  background-color: #f2f2f2;
+  background-color: #1f1f23;
   min-height: 92vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +94,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+  display:none;
+
 }
 
 .App-link {
-  color: #61dafb;
+  color: #dddddd;
 }
 
 @keyframes App-logo-spin {
