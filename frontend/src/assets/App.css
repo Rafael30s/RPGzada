@@ -59,7 +59,8 @@ html {
 .App main{
   min-height: 92vh;
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 50vw 45vw;
+  column-gap: 2px;
 }
 
 .App main div:first{
@@ -72,7 +73,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 .App-logo {
   height: 40vmin;

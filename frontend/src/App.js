@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import FormLogin from "./components/FormLogin"
 import './assets/App.css';
 import "./assets/index.css";
+import { ReactComponent as ImagemHome } from "./assets/img/ImagemHome.svg";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       </header>
       <main>
         <div>
-          teste
+         <ImagemHome width="500px"/>
         </div>
         <div>
           <FormLogin/>
